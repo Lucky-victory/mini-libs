@@ -1,0 +1,20 @@
+{
+  "name": "site-graph",
+  "version": "1.0.0",
+  "description": "Get opengraph information about a site (title, descritpion,opengraph-image)",
+  "main": "index.js",
+  "author": "Lucky victory",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.4.0",
+    "hono": "^3.12.3",
+    "puppeteer": "^21.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
