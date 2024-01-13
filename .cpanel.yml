@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/devvvzbd/site-graph/
-    - /bin/cp -R site-graph $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp yarn.lock $DEPLOYPATH
     - 
