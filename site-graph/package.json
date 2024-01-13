@@ -4,10 +4,10 @@
   "description": "Get opengraph information about a site (title, descritpion,opengraph-image)",
   "main": "index.js",
   "author": "Lucky victory",
-  "license": "MIT",
+  "license": "MIT", 
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "index.js"
+    "dev": "nodemon app.js",
+    "start": "app.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.4.0",
